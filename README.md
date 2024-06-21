@@ -1,3 +1,9 @@
+![landing page image](IMAGES/landing.png)
+![login page valiadtion](IMAGES/login.png)
+![notes dashboard](IMAGES/dashboard.png)
+![creating a note](IMAGES/creating.png)
+![created notes](IMAGES/created.png)
+
 # NotesFrontend
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.3.
