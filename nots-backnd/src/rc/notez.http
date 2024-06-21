@@ -3,8 +3,8 @@ POST http://localhost:4001/api/notes
 Content-Type: application/json
 
 {
-    "title": "Note13",
-    "content": "today i did gym by myself and"
+    "title": "Note17",
+    "content": "today i did gym by myself and rode a bike"
 }
 
 ###
