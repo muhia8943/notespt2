@@ -1,6 +1,9 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { CreateNoteComponent } from './create-note.component';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { RouterTestingModule } from '@angular/router/testing';
+import { FormsModule } from '@angular/forms';
 
 describe('CreateNoteComponent', () => {
   let component: CreateNoteComponent;
@@ -8,7 +11,7 @@ describe('CreateNoteComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [CreateNoteComponent]
+      imports: [CreateNoteComponent,HttpClientTestingModule,RouterTestingModule,FormsModule]
     })
     .compileComponents();
 
@@ -18,6 +21,8 @@ describe('CreateNoteComponent', () => {
   });
 
   it('should create', () => {
+    const fixture = TestBed.createComponent(CreateNoteComponent);
+    const component = fixture.componentInstance;
     expect(component).toBeTruthy();
   });
 });
